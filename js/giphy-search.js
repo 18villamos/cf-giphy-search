@@ -3,8 +3,6 @@ var $j = jQuery.noConflict();
 $j(document).ready(function(){
     (function($) {
 
-        //var giphy_api_key       = "";
-
         //this works for both the Search button and the pagination buttons.  The "data_offset" attribute of the buttons determines where we are in the pagination.
          $('.giphy-search-button').live("click", (function(event) {
             //event.preventDefault();
