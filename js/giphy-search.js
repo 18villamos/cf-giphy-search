@@ -16,6 +16,7 @@ $j(document).ready(function(){
          }));
 
         //Display search results according to parameters.  GIFs are shown as static thumbnails, and animation can be viewed by mousing over.  This is to minimize visual chaos.
+        //var giphy_key is defined in config.js, not included here.
         function giphy_search_results(search_term,result_limit,result_offset) {
             $('#giphy_results').empty();
             var search_url_string   = "q=" + search_term + "&api_key=" + giphy_key + "&limit=" + result_limit + "&offset=" + result_offset;
